@@ -1,0 +1,3 @@
+# Rust Raw Pointer and Vector Undefined Behavior
+
+This repository demonstrates a common source of undefined behavior in Rust: using raw pointers to modify a vector after its length or capacity might have changed.  Direct manipulation of raw pointers without careful consideration of memory ownership and vector operations leads to unexpected behavior and crashes.  The solution illustrates safe alternatives using Rust's ownership system.
